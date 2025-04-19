@@ -1,0 +1,52 @@
+# 💳 Bank Account Management System (Java, Console-Based)
+
+This is a simple **Bank Account Management System** built in Java using Object-Oriented Programming principles. It allows users to create and manage bank accounts through a console-based menu interface.
+
+---
+
+## 📌 Features
+
+- ✅ Create a new bank account  
+- 💰 Deposit money into an account  
+- 💸 Withdraw money from an account (with balance check)  
+- 📄 View account balance  
+- 🧾 Display full account details  
+- 🚫 Handles invalid inputs and insufficient funds  
+
+---
+
+## 🧠 Concepts Used
+
+- **OOP (Object-Oriented Programming)**
+  - Classes, Objects
+  - Encapsulation
+- **Java Collections** – `ArrayList` for managing accounts  
+- **Control Structures** – `if`, `switch`, `while`  
+- **Exception Handling** – `try-catch` for input validation  
+- **Scanner** – for taking user input
+
+---
+
+## 🏗️ Project Structure
+
+- `Main.java` – Runs the application and handles the user menu
+- `BankAccount.java` – Represents a single bank account with related operations
+- `Bank.java` – Handles operations on all accounts (add, search, list, etc.)
+
+---
+
+## 🔧 How It Works
+
+1. User is prompted with a menu.
+2. User selects an operation (create, deposit, withdraw, check, view).
+3. Application processes the request and shows results.
+4. Loop continues until user exits.
+
+---
+
+## 🚀 How to Run
+
+1. Clone or download the repo.
+2. Compile all `.java` files:
+   ```bash
+   javac Main.java
